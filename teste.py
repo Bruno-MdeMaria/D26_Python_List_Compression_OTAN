@@ -19,3 +19,15 @@ nome_curto = [nome for nome in names if len(nome) <6]
 print(nome_curto)
 nome_longo = [nome.upper() for nome in names if len(nome) >6]  #upper() deixa as letras em maiusculas
 print(nome_longo)
+
+numbers = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
+# 🚨 Do Not Change the code above 👆
+
+#Write your 1 line code 👇 below:
+
+
+
+#Write your code 👆 above:
+
+print(squared_numbers)
+
