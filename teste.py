@@ -15,3 +15,7 @@ print(new_range)
 # new_list = [*new_item* for *item* in *list* if *test*]
 
 names = ["Bruno", "Pricila", "Benjamim", "Angela"]
+nome_curto = [nome for nome in names if len(nome) <6]
+print(nome_curto)
+nome_longo = [nome.upper() for nome in names if len(nome) >6]  #upper() deixa as letras em maiusculas
+print(nome_longo)
