@@ -20,14 +20,12 @@ print(nome_curto)
 nome_longo = [nome.upper() for nome in names if len(nome) >6]  #upper() deixa as letras em maiusculas
 print(nome_longo)
 
-numbers = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
-# 🚨 Do Not Change the code above 👆
 
-#Write your 1 line code 👇 below:
+#COMPREHENSION DE LIST COM DICIO:
+#new_dicio = {new_key:new_value for item in list}
 
-
-
-#Write your code 👆 above:
-
-print(squared_numbers)
-
+#criar um dicionario e colocar uma nota aleatoria para cada nome abaixo:
+import random
+names = ["Bruno", "Pricila", "Benjamim", "Angela"]
+nota_estudantes = {estudantes: random.randint(1,10) for estudantes in names}
+print(nota_estudantes)
