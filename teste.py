@@ -29,3 +29,9 @@ import random
 names = ["Bruno", "Pricila", "Benjamim", "Angela"]
 nota_estudantes = {estudantes: random.randint(1,10) for estudantes in names}
 print(nota_estudantes)
+
+#criar um dicionario comprehension a partir de um dicionario com alunos com media maior que 6 estejam aprovados:
+#new_dicio = {new_key:new_value for (key, value) in dict.items() if test}
+
+aprovados = {estudante:nota for (estudante, nota) in nota_estudantes.items() if nota > 6}
+print(aprovados)
