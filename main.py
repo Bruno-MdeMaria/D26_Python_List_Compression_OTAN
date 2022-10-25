@@ -29,8 +29,8 @@ print(dicio)
 
 #TODO 2. Create a list of the phonetic code words from a word that the user inputs.
 palavra = input("Escreva uma palavra: ").upper()
-phonetic = [dicio[letter] for letra in palavra]
-print(phonetic)
+soletr = [dicio[letra] for letra in palavra]
+print(soletr)
 
 
 
