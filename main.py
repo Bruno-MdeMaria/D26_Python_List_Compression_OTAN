@@ -28,7 +28,10 @@ dicio = {row.letter: row.code for (index, row) in data.iterrows()}  #a linha ind
 print(dicio)
 
 #TODO 2. Create a list of the phonetic code words from a word that the user inputs.
-palavra = input("Escreva uma palavra: ")
+palavra = input("Escreva uma palavra: ").upper()
+phonetic = [dicio[letter] for letra in palavra]
+print(phonetic)
+
 
 
 
